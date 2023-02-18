@@ -1,7 +1,13 @@
-altura = float(input("Informe sua altura em metros: ")) #Recebendo os dados
+#Recebendo os dados
+
+altura = float(input("Informe sua altura em metros: "))
 peso = float(input("Informe seu peso: "))
 
-IMC = peso / (altura**2) #Calculando o IMC
+#Calculando o IMC
+
+IMC = peso / (altura**2) 
+
+#Condição para determinar classificação de peso
 
 if IMC < 18.5:
   print("Você está abaixo do peso e seu é IMC:", IMC)
