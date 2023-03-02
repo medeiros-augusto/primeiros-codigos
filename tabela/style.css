@@ -1,0 +1,10 @@
+table, th, td{
+    border: 1px solid black; /*cria as bordas*/
+    border-collapse: collapse; /*deixa o igual o excel*/
+    background-color: aliceblue;
+    text-align: center; /*centraliza o texto*/
+    width: 1000px; /*aumenta a largura*/
+    height: 100px; /*aumenta a expessura*/
+    margin: 100px 100px; /*arruma as margens, esquerda,cima,baixo e direita*/
+    border-radius: 25px;
+}   
