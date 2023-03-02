@@ -1,0 +1,17 @@
+.capital h2{
+    color: red;
+    background-color: grey;
+}
+.capital{
+    background-color: darkgrey;
+}
+#cabecalho{
+    text-align: center;
+    color: black;
+    background-color: lightblue;
+    padding: 40px;
+    border: 2px solid blue;
+}
+h2{
+    color: blue;
+}
