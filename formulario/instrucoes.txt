@@ -1,0 +1,5 @@
+1.Baixar os dois arquivos em uma pasta de sua máquina.
+2.Dentro da pasta clicar com botão direito no arquivo html.
+3.Ir em abrir com...
+4.Abrir com GOOGLE CHROME, MICROSOFT EDGE ou OPERA GX.
+5.Para ter o mesmo resultado da imagem anexada na atividade, seguir as intruções acima. (Rodar nos navegadores indicados para ter a formatação identica)
