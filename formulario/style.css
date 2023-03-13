@@ -1,0 +1,13 @@
+body{
+    background-color: rebeccapurple;
+    text-align: center;
+}
+h1{
+    color: white;
+}
+form{
+    background-color: rgb(174, 140, 209);
+}
+.secao{
+    font-weight: bold;
+}

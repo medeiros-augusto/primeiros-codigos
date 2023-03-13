@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container Flex</title>
+    <style>
+        .flex-container {
+            background: dodgerblue;
+            display: flex;
+            margin-right: 1125px;
+        }
+
+        .flex-container>div {
+            background: white;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+        }
+
+        .flex-container>.um {
+            background: red;
+        }
+
+        .flex-container>.dois {
+            background: yellow;
+        }
+
+        .flex-container>.tres {
+            background: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Criar um container flexivel</h1>
+
+    <div class="flex-container">
+        <div class="um">1</div>
+        <div class="dois">2</div>
+        <div class="tres">3</div>
+    </div>
+    <div class="flex-container">
+        <div class="um">4</div>
+        <div class="dois">5</div>
+        <div class="tres">6</div>
+    </div>
+    <div class="flex-container">
+        <div class="um">7</div>
+        <div class="dois">8</div>
+        <div class="tres">9</div>
+    </div>
+
+    <p>Um layout flexivel deve ter um elemento pai com a propriedade <em>display</em> definida como <em>flex</em></p>
+    <p>O elemento filho do recipiente flexivel torna-se automaticamente itens flexiveis</p>
+</body>
+
+</html>

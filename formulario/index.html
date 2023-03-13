@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Criando um Formulario</h1>
+    <form action="processo.html" method="post">
+        <br>
+        <p class="secao">Nome:</p>
+        <input type="text" name="nome" size="20" maxlength="50" value="eu sei o seu nome">
+        <p class="secao">E-mail:</p>
+        <input type="email" name="email" size="20">
+        <p class="secao">Senha:</p>
+        <input type="password" name="senha" size="20">
+        <p class="secao">Endereço:</p>
+        <input type="text" name="end" size="20">
+        <p class="secao">Selecione um UF:</p>
+        <select name="uf">
+            <option value="SP">SP</option>
+            <option value="RJ">RJ</option>
+            <option value="MG">MG</option>
+            <option value="SC">SC</option>
+        </select>
+        <p class="secao">Referência:</p>
+        <textarea name="referencia" cols="30" rows="5"></textarea>
+        <p class="secao">Selecione uma bandera de cartão:</p>
+        <input type="radio" name="master">Mastercard
+        <input type="radio" name="visa">Visa
+        <input type="radio" name="sodexo">Sodexo
+        <p class="secao">Termos de uso:</p>
+        <input type="checkbox" name="termo">Li e aceito todos os termos de uso, leia <a href="termos/termos.html">aqui</a><br>
+        <input type="checkbox" name="rec_email" checked>Aceito receber emails de atualização e noticias <br>
+        <br>
+        <button>Enviar</button>
+        <br><br><br>
+    </form>
+</body>
+</html>

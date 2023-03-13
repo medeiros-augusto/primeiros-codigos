@@ -1,0 +1,15 @@
+body{
+    background: black;
+    margin: 0;
+    padding: 0;
+}
+h1, #paragrafo{
+    color: white;
+    text-align: center;
+}
+div{
+    color: black;
+    background-color: gray;
+    height: 250px;
+    padding: 50px;
+}
